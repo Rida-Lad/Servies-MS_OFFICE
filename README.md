@@ -1,16 +1,43 @@
-# React + Vite
+# Services Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated services landing page built with React and Framer Motion.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Bilingual Support** - Toggle between English and French
+- **Smooth Animations** - Powered by Framer Motion
+- **Responsive Design** - Works on all screen sizes
+- **Modern UI** - Dark theme with colored blur backgrounds
+- **Icon Integration** - Uses Lucide React icons
 
-## React Compiler
+## Services Displayed
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Document Writing
+- Optimization & Analysis
+- Presentations
+- Data Management
+- Statistics & Reporting
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Framer Motion
+- Lucide React (icons)
+- Tailwind CSS
+
+
+## Structure
+
+- `App.jsx` - Main component with service cards
+- `context/LanguageContext.jsx` - Language switching context
+
+## Customization
+
+Each service card has a unique colored blur background that matches its icon color:
+- Blue for Document Writing
+- Green for Optimization
+- Orange for Presentations
+- Purple for Data Management
+- Yellow for Statistics
+
+Feel free to modify colors, add more services, or customize the content in the language context.
